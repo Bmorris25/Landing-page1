@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+        <a href="#" class="logo">
+            <h1>
+                <span class="landing">Landing</span><span class="page">Page</span>
+                <span class="page-icon">🧾</span>
+            </h1>
+        </a>
+        <ul>
+            <li class="nav-item">
+                <a href="#hero" class="nav-link" id="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#image-array" class="nav-link" id="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#people" class="nav-link" id="nav-link">Who we are</a>
+            </li>
+            <li class="nav-item">
+                <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+            </li>
+        </ul>
+
+        
+        <!--bars-->
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+    </nav>
+    <!--dark-light theme switcher-->
+    <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox"/>
+        <label for="checkbox" class="label">
+            <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+            <ion-icon name="moon-outline" class="moon"></ion-icon>
+            <div class="switcher"></div>
+        </label>
+    </div>
+    <!--Hero section-->
+    <section class="hero" id="hero">
+        <div class="intro-text">
+            <h1>
+                <span class="see">You can see the power</span>
+                <span class="message">of your message</span>
+            </h1>
+            <p>
+                An online page to show your message to the people you want to see it.
+            </p>
+            <a class="btn red" href="#">Learn More</a>
+            <a class="btn blue" href="#">Subscribe</a>
+        </div>
+        <div class="i-frame">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/BBrq0TxUdTo"
+                title="YouTube video player"
+                frameborder="10"
+                allow="accelerometer; autoplay; clipboard-write";
+                ></iframe>
+            <div class="stand-1"></div>
+            <div class="stand-2"></div>
+        </div>
+    </section>
+    <!--About section-->
+    <section class="about" id="about">
+        <h3>Skyrocket your business</h3>
+        <p>
+            Our primary goal is to give you the tools to be successful online. Many times, that includes a killer landing page.
+        </p>
+    </section>
+    <!-- image gallery-->
+    <section class="image-array" id="image-array">
+        <div><img src="./assets/images/picture1.jpg"></div>
+        <div class="sm-img"><img src="./assets/images/picture2.jpg"></div>
+        <div class="sm-img"><img src="./assets/images/picture3.png"></div>
+        <div class="sm-img"><img src="./assets/images/picture4.jpg"></div>
+        <div class="sm-img"><img src="./assets/images/picture5.jpg"></div>
+    </section>
+    <!--Stackholders-->
+    <section class="people" id="people">
+        <div class="stackholders">
+            <div class="persons">
+                <div class="person-1">
+                    <img src="./assets/images/john doe.jpg" alt="John Doe">
+                    <p class="name">Jon Doe</p>
+                    <p class="role">Founder</p>
+                </div>
+                <div class="person-2">
+                    <img src="./assets/images/jane doe.jpg" alt="Jane Doe">
+                    <p class="name">Jane Doe</p>
+                    <p class="role">Web Developer</p>
+                </div>
+                <div class="person-3">
+                    <img src="./assets/images/john doe jr.jpg" alt="John Doe JR.">
+                    <p class="name">John Doe JR.</p>
+                    <p class="role">Marketer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- email subscription-->
+     <section class="sub" id="sub">
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+            <input 
+                type="email"
+                name="email"
+                id="email-sub"
+                class="email-sub"
+                required
+            />
+            <input
+                type="submit"
+                value="Subscribe"
+                id="submit-btn"
+                class="submit-btn"
+            />
+        </form>
+     </section>
+     <!--social icons-->
+     <section class="social">
+        <h3>Connect with us on social media</h3>
+        <div class="socicons">
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+        </div>
+     </section>
+     <!--Footer-->
+     <footer>&copy;2025. All Right Reserved</footer>
+     <!--Scroll to top button-->
+     <i class="scroll-up" id="scroll-up"><ion-icon name="arrow-up-outline" class="socicon up-arrow"></ion-icon></i>
+
+<script src="assets/js/app.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
